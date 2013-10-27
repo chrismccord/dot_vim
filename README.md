@@ -1,5 +1,5 @@
 # Vim Configuration
-  > Modified from [Jeremy Mack's exellently curated configuration](https://github.com/mutewinter/dot_vim)
+  > Modified from [Jeremy Macks' excellently curated configuration](https://github.com/mutewinter/dot_vim)
 
 ## Installation
 
@@ -59,9 +59,6 @@ Be sure to always edit the vimrc using `,v`, which opens the vimrc in the
 Here's a list of plugins that require further installation or have
 dependencies.
 
-* [syntastic](https://github.com/scrooloose/syntastic) Requires many different
-  binaries installed depending on what filetypes you want it to check. See the
-  [FAQ](https://github.com/scrooloose/syntastic#faq) for more information.
 * [Ag.vim](https://github.com/rking/ag.vim) Requires
   [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) to be
   installed.
