@@ -1,4 +1,5 @@
-# The Vim Configuration of Champions
+# Vim Configuration
+  > Modified from [Jeremy Mack's exellently curated configuration](https://github.com/mutewinter/dot_vim)
 
 ## Installation
 
