@@ -161,6 +161,10 @@ nnoremap <silent> <leader>vs :vsplit<Bar>:wincmd l<CR>
 
 " Close the current window
 nnoremap <silent> <leader>sc :close<CR>
+
+" Delete the current buffer
+nnoremap <leader>w :bd<CR>
+
 " ---------------
 " Typo Fixes
 " ---------------

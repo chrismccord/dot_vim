@@ -245,6 +245,11 @@ let g:ycm_filetype_specific_completion_to_disable = {
     \ 'javascript' : 1,
     \}
 
+" ---------
+" SuperTab
+" ---------
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
 " ---------------
 " vim-signify
 " ---------------
