@@ -162,8 +162,14 @@ nnoremap <silent> <leader>vs :vsplit<Bar>:wincmd l<CR>
 " Close the current window
 nnoremap <silent> <leader>sc :close<CR>
 
-" Delete the current buffer
-nnoremap <leader>w :bd<CR>
+" Close the current buffer without quitting
+nnoremap <leader>w :Bclose<CR>
+
+" vim-smooth-scroll
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 10, 2)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 10, 2)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 4)<CR>
 
 " ---------------
 " Typo Fixes

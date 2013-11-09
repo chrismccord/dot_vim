@@ -76,19 +76,19 @@ nnoremap <leader>os :OpenSession<CR>
 " ---------------
 " Fugitive
 " ---------------
-" nnoremap <Leader>gc :Gcommit -v<CR>
-" nnoremap <Leader>gw :Gwrite<CR>
-" nnoremap <Leader>gs :Gstatus<CR>
-" nnoremap <Leader>gp :Git push<CR>
-"  " Mnemonic, gu = Git Update
-" nnoremap <Leader>gu :Git pull<CR>
-" nnoremap <Leader>gd :Gdiff<CR>
-" " Exit a diff by closing the diff window
-" nnoremap <Leader>gx :wincmd h<CR>:q<CR>
-" " Start git command
-" nnoremap <leader>gi :Git<space>
-" " Undo the last commit
-" command! Gcundo :Git reset HEAD~1
+nnoremap <Leader>gc :Gcommit -v<CR>
+nnoremap <Leader>gw :Gwrite<CR>
+nnoremap <Leader>gs :Gstatus<CR>
+nnoremap <Leader>gp :Git push<CR>
+ " Mnemonic, gu = Git Update
+nnoremap <Leader>gu :Git pull<CR>
+nnoremap <Leader>gd :Gdiff<CR>
+" Exit a diff by closing the diff window
+nnoremap <Leader>gx :wincmd h<CR>:q<CR>
+" Start git command
+nnoremap <leader>gi :Git<space>
+" Undo the last commit
+command! Gcundo :Git reset HEAD~1
 
 " ---------------
 " Zoomwin
@@ -104,7 +104,7 @@ let g:ctrlp_map = ''
 
 " Ensure max height isn't too large. (for performance)
 let g:ctrlp_max_height = 10
-let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
+" let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
 let g:ctrlp_extensions = ['funky']
 
 " Leader Commands
