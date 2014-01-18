@@ -18,8 +18,6 @@ Now you have a choice. The automated script or the manual process.
 3. `vim "+mkspell ~/.vim/spell/custom.en.utf-8.add" +BundleInstall +qall`
 _installs all of the plugins and compiles custom spellings._
 
-Enjoy enhanced productivity, increased levitation, reduced watermelon-related
-accidents, and startling sex appeal.
 
 ## Screenshots
 
