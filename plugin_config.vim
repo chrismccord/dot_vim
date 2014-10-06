@@ -106,13 +106,14 @@ let g:ctrlp_map = ''
 let g:ctrlp_max_height = 10
 " let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
 let g:ctrlp_extensions = ['funky']
-
+let g:ctrlp_custom_ignore = '_build\|deps\|DS_Store\|git\|vendor/gems\|public/uploads'
 " Leader Commands
 nnoremap <leader>t :CtrlPRoot<CR>
 nnoremap <leader>b :CtrlPBuffer<CR>
 nnoremap <leader>u :CtrlPCurFile<CR>
-nnoremap <leader>m :CtrlPMRUFiles<CR>
+nnoremap <leader>m :CtrlPTag<CR>
 nnoremap <leader>r :CtrlPFunky<CR>
+nnoremap <leader>. :tag /^<C-R><C-w>[.]*<cr>
 
 " ---------------
 " airline
